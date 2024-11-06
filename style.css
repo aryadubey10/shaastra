@@ -1,0 +1,225 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+/*navbar*/
+#navbar{
+    display: flex;
+    align-items: center;
+}
+/*navbar : logo and image */
+#logo{ 
+    margin : 10px 34px;
+}
+#logo img{ 
+    border-radius : 30px; 
+    height: 82px;
+    margin : 5px 5px;
+}
+/* navigation bar : list styling */
+#navbar{
+    position: relative;
+    font-family: "Baloo Paaji 2", sans-serif; 
+}
+#navbar ul {
+    display : flex;
+}
+#navbar::before{
+   /* content : ""; */
+   background-color: black; 
+   position : absolute;
+   height : 100%;
+   width : 100%;
+   /* z-index: -1;  */
+   /* opacity: 0.6; */
+}
+
+#navbar ul li{ 
+    font-size: 1.0rem;
+    list-style: none;
+}
+#navbar ul li a{
+    color : white;
+    display : block;
+    padding : 3px 22px;
+    border-radius : 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+   color: black;
+   background-color: white;
+}
+
+body{
+    background: url(sa2.jpg) no-repeat center center fixed;
+    /* background-color: rgb(91, 88, 88); */
+    background-size: cover;
+    position: absolute;
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+
+.primary{
+    color: white;
+    font-size: 45px;
+}
+
+.primary2{
+    color: white;
+    font-size: 20px;
+}
+.container{
+    /* border: 4px double white; */
+    /* border-radius: 20px; */
+    /* background-color: rgb(91, 87, 87); */
+    /* filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); */
+    /* box-shadow: 10px 10px 10px rgba(0,0,0,0.9);*/
+    position: absolute;
+    /* opacity:0.7; */
+    top:320px;
+    left:760px; 
+    height:340px;
+    width:400px;
+    text-align: center;
+    font-family: "Baloo Paaji 2", sans-serif; 
+    position: absolute;
+            /* top: 50%;
+            left: 50%;
+            width: 400px;
+            padding: 40px; */
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.5);
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.9);
+            border-radius: 10px;
+}
+
+/* .box input{
+    background: none;
+    color:white;
+} */
+
+#phone{
+    font-size: 20px;
+    margin: 15px;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    font-family: "Baloo Paaji 2", sans-serif;
+    /* background: none; */
+    border-bottom:2px solid white;
+    padding-left: 5px;
+}
+
+#phone:hover{
+    box-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+#password{
+    font-size: 20px;
+    margin: 15px;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    font-family: "Baloo Paaji 2", sans-serif;
+    /* background: none; */
+    border-bottom:2px solid white;
+    padding-left: 5px;
+}
+#password:hover{
+    box-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+#but{
+    color: white;
+    font-size: 20px;
+    padding:6px;
+    margin: 15px;
+    border:none;
+    border-radius: 10px;
+    background-color: white;
+    font-family: "Baloo Paaji 2", sans-serif;
+    color: grey;
+    width: 30%;
+    /* background: none; */
+}
+
+#but:hover{
+    /* color:grey;
+    background: white; */
+    cursor:pointer;
+    box-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+#but2{
+    color: white;
+    font-size: 20px;
+    padding:6px;
+    margin: 15px;
+    border:none;
+    border-radius: 10px;
+    background-color: white;
+    font-family: "Baloo Paaji 2", sans-serif;
+    color: grey;
+    width: 30%;
+}
+
+#but2:hover{
+    /* color:grey;
+    background: white; */
+    cursor:pointer;
+    box-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+#but3{
+    color: white;
+    font-size: 20px;
+    padding:6px;
+    margin: 15px;
+    border:none;
+    border-radius: 10px;
+    background-color: white;
+    font-family: "Baloo Paaji 2", sans-serif;
+    color: grey;
+    width: 70%;
+}
+
+#but3:hover{
+    /* color:grey;
+    background: white; */
+    cursor:pointer;
+    box-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+#but4{
+    color: white;
+    font-size: 20px;
+    padding:6px;
+    margin: 15px;
+    border:none;
+    border-radius: 10px;
+    background-color: white;
+    font-family: "Baloo Paaji 2", sans-serif;
+    color: grey;
+    width: 70%;
+}
+
+#but4:hover{
+    /* color:grey;
+    background: white; */
+    cursor:pointer;
+    box-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+#para{
+    cursor: pointer;
+    color: white;
+    padding-bottom:10px ;
+}
+
+.box i{
+    width:25px;
+    color: white;
+}
